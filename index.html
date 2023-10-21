@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Builder</title>
+    <link rel="stylesheet" type="text/css" href="resumebulder.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Builder</h1>
+        <form id="resumeForm">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label><br>
+            <input type="text" id="phone" name="phone"><br><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br><br>
+            <label for="summary">Summary:</label><br>
+            <textarea id="summary" name="summary" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Generate Resume">
+        </form>
+        <div id="resumeContent">
+            <!-- Generated resume content will appear here -->
+        </div>
+    </div>
+    <script src="resbulder.js"></script>
+</body>
+</html>
